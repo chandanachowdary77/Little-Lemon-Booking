@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d5cfc7;
+}
+
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ecca22ce;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.booking-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.booking-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: rgb(49, 180, 49);
+  color: #333;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #e1bc10;
+}
